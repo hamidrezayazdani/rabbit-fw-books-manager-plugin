@@ -1,0 +1,17 @@
+{
+  "name": "ywp/y-books-manager",
+  "description": "A WordPress plugin to manage book information using Rabbit Framework.",
+  "type": "wordpress-plugin",
+  "require": {
+    "veronalabs/rabbit": "^1.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6",
+    "yoast/phpunit-polyfills": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "YBooksManager\\": "src/"
+    }
+  }
+}
